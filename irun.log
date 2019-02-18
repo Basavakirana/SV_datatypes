@@ -1,0 +1,31 @@
+irun(64): 15.20-s051: (c) Copyright 1995-2018 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s051: Started on Feb 18, 2019 at 21:32:42 IST
+irun
+	-access +rwc
+	enum_ex.sv
+Recompiling... reason: file './enum_ex.sv' is newer than expected.
+	expected: Mon Feb 18 21:31:01 2019
+	actual:   Mon Feb 18 21:32:40 2019
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		enum_ex
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		         Instances  Unique
+		Modules:         1       1
+		Registers:       3       3
+		Initial blocks:  2       2
+	Writing initial simulation snapshot: worklib.enum_ex:sv
+Loading snapshot worklib.enum_ex:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /tools/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+init :           0
+read :           3
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	irun(64)	15.20-s051: Exiting on Feb 18, 2019 at 21:32:43 IST  (total: 00:00:01)
